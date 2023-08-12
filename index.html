@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cronometro</h1>
+    <div class="principal">
+      <p class="tempo">
+      <h2 class="minutos">00</h2>:<h2 class="segundos">00</h2>:<h2 class="milissegundos">00</h2>
+      </p>
+      <div>
+        <button class="iniciar">INICIAR</button>
+        <button class="parar">PARAR</button>
+        <button class="resetar">RESETAR</button>
+      </div>
+    </div>
+  </div>
+
+  <h1>Temporizador</h1>
+  <div class="principal">
+    <h2 id="tempo">00:00.0</h2>
+    <div id="inputs">
+      <input id="minutos" class="ipt" type="number" placeholder="Minutos">
+      <br>
+      <input id="segundos" class="ipt" type="number" placeholder="Segundos">
+    </div>
+
+    <button id="btnIniciar">Iniciar</button>
+    <button id="btnPausar">pausar</button>
+    <button id="btnResetar">Resetar</button>
+    <br>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
