@@ -1,3 +1,3 @@
 # cronometro-temporizador
 
-### Hii my name is Divaldo
+### Hii my name is Divaldo Hélder
